@@ -31,13 +31,13 @@
   for (id item in array)
   {
     NSString *key = keyBlock(item);
-    [dictionary setValue:value forKey:key];
+    [dictionary setValue:item forKey:key];
   }
   
   return dictionary;
 }
 
-+ (NSDictionary<NSString *, T> *)mapValuesToNewDictionaryFrom:(NSDictionary<NSString *, Q> *)dictionary withKeyBlock:(NSString *(^)(NSString *originalKey, Q object))keyBlock valueBlock:(T(^)(Q object))valueBlock
++ (NSDictionary<NSString *, id> *)mapValuesToNewDictionaryFrom:(NSDictionary<NSString *, id> *)dictionary withKeyBlock:(NSString *(^)(NSString *originalKey, id object))keyBlock valueBlock:(id(^)(id object))valueBlock
 {
   NSMutableDictionary *newDictionary = [NSMutableDictionary dictionary];
   
@@ -96,14 +96,14 @@
 
 + (NSArray *)valuesFromDictionarySortedByKeys:(NSDictionary<NSString *, id> *)dictionary
 {
-  NSArray *sortedKeys = [self sortedKeysFromDictionary:inputDictionary];
+  NSArray *sortedKeys = [self sortedKeysFromDictionary:dictionary];
   
   NSMutableArray *arrayFromDict = [NSMutableArray array];
   
   for (int i = 0; i < sortedKeys.count; i++)
   {
     NSString *keyString = sortedKeys[i];
-    [arrayFromDict addObject:[inputDictionary objectForKey:keyString]];
+    [arrayFromDict addObject:[dictionary objectForKey:keyString]];
   }
   
   return arrayFromDict;
