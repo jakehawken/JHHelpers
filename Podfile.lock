@@ -1,0 +1,26 @@
+PODS:
+  - Cedar (1.0)
+  - KSDeferred (0.3.3)
+  - PivotalCoreKit (0.3.4):
+    - PivotalCoreKit/Core (= 0.3.4)
+  - PivotalCoreKit/Core (0.3.4):
+    - PivotalCoreKit/Foundation/Core
+    - PivotalCoreKit/UIKit/Core
+  - PivotalCoreKit/Foundation/Core (0.3.4)
+  - PivotalCoreKit/UIKit/Core (0.3.4):
+    - PivotalCoreKit/UIKit/Core/Core-arc (= 0.3.4)
+  - PivotalCoreKit/UIKit/Core/Core-arc (0.3.4)
+
+DEPENDENCIES:
+  - Cedar
+  - KSDeferred
+  - PivotalCoreKit
+
+SPEC CHECKSUMS:
+  Cedar: a641e5ed0353bd9d45782ce365d0822b7342cce3
+  KSDeferred: 1d90bddfff8b387a49deeb6579e63e170f4f2ce2
+  PivotalCoreKit: f6450cfa174d0a1cacabe09f7b257353be821b9c
+
+PODFILE CHECKSUM: b4033ccc30d2981c216f1f0fd15f71591f959d86
+
+COCOAPODS: 1.2.0

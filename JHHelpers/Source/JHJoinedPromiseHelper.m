@@ -4,8 +4,7 @@
 
 #import "JHJoinedPromiseHelper.h"
 
-#import "HDMapper.h"
-#import "KSDeferred.h"
+#import "JHMapper.h"
 
 
 @interface JHJoinedPromiseHelper()
@@ -67,7 +66,7 @@
 
 - (NSArray *)successValues
 {
-  return [HDMapper<KSPromise *, id> filter:self.childPromises withEvaluationBlock:^id(KSPromise *promise) {
+  return [JHMapper<KSPromise *, id> mapFilter:self.childPromises withBlock:^id(KSPromise *promise) {
     return promise.value;
   }];
 }

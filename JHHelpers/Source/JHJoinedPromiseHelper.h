@@ -2,7 +2,7 @@
 //  Copyright © 2017 Jake Hawken. All rights reserved.
 
 #import <Foundation/Foundation.h>
-#import "KSPromise.h"
+#import <KSDeferred/KSPromise.h>
 
 /*!
  @class JHJoinedPromiseHelper

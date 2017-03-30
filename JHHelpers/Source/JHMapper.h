@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param  array The input array, made up of items of type <Q>.
  
- @param  perform The block which is called for each item in the array, which receives an item of type Q and then peforms a task.
+ @param  block The block which is called for each item in the array, which receives an item of type Q and then peforms a task.
 */
 
 + (void)forEachIn:(NSArray<Q> *)array perform:(void(^)(Q object))block;

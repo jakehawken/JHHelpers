@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B88CF7F1FC9E21E680B7E54 /* libPods-JHHelpersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E794361B27C1080B84F8F16 /* libPods-JHHelpersTests.a */; };
+		160A16BD1E8CB60E003B8F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16BC1E8CB60E003B8F49 /* main.m */; };
+		160A16C01E8CB60E003B8F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16BF1E8CB60E003B8F49 /* AppDelegate.m */; };
+		160A16C31E8CB60E003B8F49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16C21E8CB60E003B8F49 /* ViewController.m */; };
+		160A16C61E8CB60E003B8F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160A16C41E8CB60E003B8F49 /* Main.storyboard */; };
+		160A16C81E8CB60E003B8F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160A16C71E8CB60E003B8F49 /* Assets.xcassets */; };
+		160A16CB1E8CB60E003B8F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160A16C91E8CB60E003B8F49 /* LaunchScreen.storyboard */; };
+		160A16D61E8CB60E003B8F49 /* JHHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16D51E8CB60E003B8F49 /* JHHelpersTests.m */; };
+		160A16EA1E8CB81B003B8F49 /* JHDataSanitizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16E21E8CB81B003B8F49 /* JHDataSanitizer.m */; };
+		160A16EB1E8CB81B003B8F49 /* JHErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16E41E8CB81B003B8F49 /* JHErrorHelper.m */; };
+		160A16EC1E8CB81B003B8F49 /* JHJoinedPromiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16E61E8CB81B003B8F49 /* JHJoinedPromiseHelper.m */; };
+		160A16ED1E8CB81B003B8F49 /* JHMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16E81E8CB81B003B8F49 /* JHMapper.m */; };
+		58F49930A64A470A59F33921 /* libPods-JHHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792ADBABBDD6BC2790C8EE1 /* libPods-JHHelpers.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		160A16D21E8CB60E003B8F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160A16B01E8CB60E003B8F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160A16B71E8CB60E003B8F49;
+			remoteInfo = JHHelpers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160A16B81E8CB60E003B8F49 /* JHHelpers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHHelpers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		160A16BC1E8CB60E003B8F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		160A16BE1E8CB60E003B8F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		160A16BF1E8CB60E003B8F49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		160A16C11E8CB60E003B8F49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		160A16C21E8CB60E003B8F49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		160A16C51E8CB60E003B8F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		160A16C71E8CB60E003B8F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		160A16CA1E8CB60E003B8F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		160A16CC1E8CB60E003B8F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160A16D11E8CB60E003B8F49 /* JHHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		160A16D51E8CB60E003B8F49 /* JHHelpersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHHelpersTests.m; sourceTree = "<group>"; };
+		160A16D71E8CB60E003B8F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160A16E11E8CB81B003B8F49 /* JHDataSanitizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHDataSanitizer.h; path = Source/JHDataSanitizer.h; sourceTree = "<group>"; };
+		160A16E21E8CB81B003B8F49 /* JHDataSanitizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHDataSanitizer.m; path = Source/JHDataSanitizer.m; sourceTree = "<group>"; };
+		160A16E31E8CB81B003B8F49 /* JHErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHErrorHelper.h; path = Source/JHErrorHelper.h; sourceTree = "<group>"; };
+		160A16E41E8CB81B003B8F49 /* JHErrorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHErrorHelper.m; path = Source/JHErrorHelper.m; sourceTree = "<group>"; };
+		160A16E51E8CB81B003B8F49 /* JHJoinedPromiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHJoinedPromiseHelper.h; path = Source/JHJoinedPromiseHelper.h; sourceTree = "<group>"; };
+		160A16E61E8CB81B003B8F49 /* JHJoinedPromiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHJoinedPromiseHelper.m; path = Source/JHJoinedPromiseHelper.m; sourceTree = "<group>"; };
+		160A16E71E8CB81B003B8F49 /* JHMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHMapper.h; path = Source/JHMapper.h; sourceTree = "<group>"; };
+		160A16E81E8CB81B003B8F49 /* JHMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHMapper.m; path = Source/JHMapper.m; sourceTree = "<group>"; };
+		3B41C89ECBE4F93371B0E9A6 /* Pods-JHHelpersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHHelpersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHHelpersTests/Pods-JHHelpersTests.release.xcconfig"; sourceTree = "<group>"; };
+		4792ADBABBDD6BC2790C8EE1 /* libPods-JHHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHHelpers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6EBAA85E5725D11422006D /* Pods-JHHelpers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHHelpers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHHelpers/Pods-JHHelpers.debug.xcconfig"; sourceTree = "<group>"; };
+		4E794361B27C1080B84F8F16 /* libPods-JHHelpersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHHelpersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D003DB2C774E08BF18740F9 /* Pods-JHHelpers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHHelpers.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHHelpers/Pods-JHHelpers.release.xcconfig"; sourceTree = "<group>"; };
+		F19DA19D8B43468A2D5F62B2 /* Pods-JHHelpersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHHelpersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHHelpersTests/Pods-JHHelpersTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160A16B51E8CB60E003B8F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F49930A64A470A59F33921 /* libPods-JHHelpers.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160A16CE1E8CB60E003B8F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B88CF7F1FC9E21E680B7E54 /* libPods-JHHelpersTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160A16AF1E8CB60E003B8F49 = {
+			isa = PBXGroup;
+			children = (
+				160A16BA1E8CB60E003B8F49 /* JHHelpers */,
+				160A16D41E8CB60E003B8F49 /* JHHelpersTests */,
+				160A16B91E8CB60E003B8F49 /* Products */,
+				3C1E2ABA83E1A99C434CC97B /* Pods */,
+				609D3C8BCC0DC9F0B0BDCB79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		160A16B91E8CB60E003B8F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				160A16B81E8CB60E003B8F49 /* JHHelpers.app */,
+				160A16D11E8CB60E003B8F49 /* JHHelpersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		160A16BA1E8CB60E003B8F49 /* JHHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				160A16E01E8CB80C003B8F49 /* Source */,
+				160A16BE1E8CB60E003B8F49 /* AppDelegate.h */,
+				160A16BF1E8CB60E003B8F49 /* AppDelegate.m */,
+				160A16C11E8CB60E003B8F49 /* ViewController.h */,
+				160A16C21E8CB60E003B8F49 /* ViewController.m */,
+				160A16C41E8CB60E003B8F49 /* Main.storyboard */,
+				160A16C71E8CB60E003B8F49 /* Assets.xcassets */,
+				160A16C91E8CB60E003B8F49 /* LaunchScreen.storyboard */,
+				160A16CC1E8CB60E003B8F49 /* Info.plist */,
+				160A16BB1E8CB60E003B8F49 /* Supporting Files */,
+			);
+			path = JHHelpers;
+			sourceTree = "<group>";
+		};
+		160A16BB1E8CB60E003B8F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				160A16BC1E8CB60E003B8F49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		160A16D41E8CB60E003B8F49 /* JHHelpersTests */ = {
+			isa = PBXGroup;
+			children = (
+				160A16D51E8CB60E003B8F49 /* JHHelpersTests.m */,
+				160A16D71E8CB60E003B8F49 /* Info.plist */,
+			);
+			path = JHHelpersTests;
+			sourceTree = "<group>";
+		};
+		160A16E01E8CB80C003B8F49 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				160A16E11E8CB81B003B8F49 /* JHDataSanitizer.h */,
+				160A16E21E8CB81B003B8F49 /* JHDataSanitizer.m */,
+				160A16E31E8CB81B003B8F49 /* JHErrorHelper.h */,
+				160A16E41E8CB81B003B8F49 /* JHErrorHelper.m */,
+				160A16E51E8CB81B003B8F49 /* JHJoinedPromiseHelper.h */,
+				160A16E61E8CB81B003B8F49 /* JHJoinedPromiseHelper.m */,
+				160A16E71E8CB81B003B8F49 /* JHMapper.h */,
+				160A16E81E8CB81B003B8F49 /* JHMapper.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		3C1E2ABA83E1A99C434CC97B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D6EBAA85E5725D11422006D /* Pods-JHHelpers.debug.xcconfig */,
+				8D003DB2C774E08BF18740F9 /* Pods-JHHelpers.release.xcconfig */,
+				F19DA19D8B43468A2D5F62B2 /* Pods-JHHelpersTests.debug.xcconfig */,
+				3B41C89ECBE4F93371B0E9A6 /* Pods-JHHelpersTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		609D3C8BCC0DC9F0B0BDCB79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4792ADBABBDD6BC2790C8EE1 /* libPods-JHHelpers.a */,
+				4E794361B27C1080B84F8F16 /* libPods-JHHelpersTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160A16B71E8CB60E003B8F49 /* JHHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160A16DA1E8CB60E003B8F49 /* Build configuration list for PBXNativeTarget "JHHelpers" */;
+			buildPhases = (
+				0D47F33FB269A4B4159A9EC0 /* [CP] Check Pods Manifest.lock */,
+				160A16B41E8CB60E003B8F49 /* Sources */,
+				160A16B51E8CB60E003B8F49 /* Frameworks */,
+				160A16B61E8CB60E003B8F49 /* Resources */,
+				2BF8A277FBD057C166AF45C6 /* [CP] Embed Pods Frameworks */,
+				3E5EE611E0C7DB36659A739D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHHelpers;
+			productName = JHHelpers;
+			productReference = 160A16B81E8CB60E003B8F49 /* JHHelpers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		160A16D01E8CB60E003B8F49 /* JHHelpersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160A16DD1E8CB60E003B8F49 /* Build configuration list for PBXNativeTarget "JHHelpersTests" */;
+			buildPhases = (
+				9A87696CA8DE2EC460D9571D /* [CP] Check Pods Manifest.lock */,
+				160A16CD1E8CB60E003B8F49 /* Sources */,
+				160A16CE1E8CB60E003B8F49 /* Frameworks */,
+				160A16CF1E8CB60E003B8F49 /* Resources */,
+				18BA773E2284E37767319F2F /* [CP] Embed Pods Frameworks */,
+				43B28FD6A5B5A3E5F8999D16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160A16D31E8CB60E003B8F49 /* PBXTargetDependency */,
+			);
+			name = JHHelpersTests;
+			productName = JHHelpersTests;
+			productReference = 160A16D11E8CB60E003B8F49 /* JHHelpersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160A16B01E8CB60E003B8F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jake Hawken";
+				TargetAttributes = {
+					160A16B71E8CB60E003B8F49 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 622WMK9UYQ;
+						ProvisioningStyle = Automatic;
+					};
+					160A16D01E8CB60E003B8F49 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 622WMK9UYQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 160A16B71E8CB60E003B8F49;
+					};
+				};
+			};
+			buildConfigurationList = 160A16B31E8CB60E003B8F49 /* Build configuration list for PBXProject "JHHelpers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 160A16AF1E8CB60E003B8F49;
+			productRefGroup = 160A16B91E8CB60E003B8F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160A16B71E8CB60E003B8F49 /* JHHelpers */,
+				160A16D01E8CB60E003B8F49 /* JHHelpersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160A16B61E8CB60E003B8F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160A16CB1E8CB60E003B8F49 /* LaunchScreen.storyboard in Resources */,
+				160A16C81E8CB60E003B8F49 /* Assets.xcassets in Resources */,
+				160A16C61E8CB60E003B8F49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160A16CF1E8CB60E003B8F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D47F33FB269A4B4159A9EC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18BA773E2284E37767319F2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHHelpersTests/Pods-JHHelpersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF8A277FBD057C166AF45C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHHelpers/Pods-JHHelpers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E5EE611E0C7DB36659A739D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHHelpers/Pods-JHHelpers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43B28FD6A5B5A3E5F8999D16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHHelpersTests/Pods-JHHelpersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A87696CA8DE2EC460D9571D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160A16B41E8CB60E003B8F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160A16ED1E8CB81B003B8F49 /* JHMapper.m in Sources */,
+				160A16C31E8CB60E003B8F49 /* ViewController.m in Sources */,
+				160A16EA1E8CB81B003B8F49 /* JHDataSanitizer.m in Sources */,
+				160A16EC1E8CB81B003B8F49 /* JHJoinedPromiseHelper.m in Sources */,
+				160A16C01E8CB60E003B8F49 /* AppDelegate.m in Sources */,
+				160A16BD1E8CB60E003B8F49 /* main.m in Sources */,
+				160A16EB1E8CB81B003B8F49 /* JHErrorHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160A16CD1E8CB60E003B8F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160A16D61E8CB60E003B8F49 /* JHHelpersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		160A16D31E8CB60E003B8F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 160A16B71E8CB60E003B8F49 /* JHHelpers */;
+			targetProxy = 160A16D21E8CB60E003B8F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		160A16C41E8CB60E003B8F49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160A16C51E8CB60E003B8F49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		160A16C91E8CB60E003B8F49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160A16CA1E8CB60E003B8F49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		160A16D81E8CB60E003B8F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		160A16D91E8CB60E003B8F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		160A16DB1E8CB60E003B8F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6EBAA85E5725D11422006D /* Pods-JHHelpers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 622WMK9UYQ;
+				INFOPLIST_FILE = JHHelpers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakehawken.JHHelpers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		160A16DC1E8CB60E003B8F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D003DB2C774E08BF18740F9 /* Pods-JHHelpers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 622WMK9UYQ;
+				INFOPLIST_FILE = JHHelpers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakehawken.JHHelpers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		160A16DE1E8CB60E003B8F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19DA19D8B43468A2D5F62B2 /* Pods-JHHelpersTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 622WMK9UYQ;
+				INFOPLIST_FILE = JHHelpersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakehawken.JHHelpersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHHelpers.app/JHHelpers";
+			};
+			name = Debug;
+		};
+		160A16DF1E8CB60E003B8F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B41C89ECBE4F93371B0E9A6 /* Pods-JHHelpersTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 622WMK9UYQ;
+				INFOPLIST_FILE = JHHelpersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakehawken.JHHelpersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHHelpers.app/JHHelpers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160A16B31E8CB60E003B8F49 /* Build configuration list for PBXProject "JHHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160A16D81E8CB60E003B8F49 /* Debug */,
+				160A16D91E8CB60E003B8F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160A16DA1E8CB60E003B8F49 /* Build configuration list for PBXNativeTarget "JHHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160A16DB1E8CB60E003B8F49 /* Debug */,
+				160A16DC1E8CB60E003B8F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160A16DD1E8CB60E003B8F49 /* Build configuration list for PBXNativeTarget "JHHelpersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160A16DE1E8CB60E003B8F49 /* Debug */,
+				160A16DF1E8CB60E003B8F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160A16B01E8CB60E003B8F49 /* Project object */;
+}

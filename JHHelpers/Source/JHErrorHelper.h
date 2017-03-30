@@ -2,7 +2,6 @@
 //  Copyright © 2016 Jake Hawken. All rights reserved.
 
 #import <Foundation/Foundation.h>
-#import "HDServiceLayerProtocols.h"
 
 /*!
  @class JHErrorHelper
