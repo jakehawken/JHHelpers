@@ -14,11 +14,11 @@
 		160A16C61E8CB60E003B8F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160A16C41E8CB60E003B8F49 /* Main.storyboard */; };
 		160A16C81E8CB60E003B8F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160A16C71E8CB60E003B8F49 /* Assets.xcassets */; };
 		160A16CB1E8CB60E003B8F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160A16C91E8CB60E003B8F49 /* LaunchScreen.storyboard */; };
-		160A16D61E8CB60E003B8F49 /* JHHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16D51E8CB60E003B8F49 /* JHHelpersTests.m */; };
 		160A16EA1E8CB81B003B8F49 /* JHDataSanitizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16E21E8CB81B003B8F49 /* JHDataSanitizer.m */; };
 		160A16EB1E8CB81B003B8F49 /* JHErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16E41E8CB81B003B8F49 /* JHErrorHelper.m */; };
 		160A16EC1E8CB81B003B8F49 /* JHJoinedPromiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16E61E8CB81B003B8F49 /* JHJoinedPromiseHelper.m */; };
 		160A16ED1E8CB81B003B8F49 /* JHMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A16E81E8CB81B003B8F49 /* JHMapper.m */; };
+		1677A4461EA030D20085CA00 /* JHDataSanitizerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1677A4451EA030D20085CA00 /* JHDataSanitizerSpec.mm */; };
 		58F49930A64A470A59F33921 /* libPods-JHHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792ADBABBDD6BC2790C8EE1 /* libPods-JHHelpers.a */; };
 /* End PBXBuildFile section */
 
@@ -44,16 +44,16 @@
 		160A16CA1E8CB60E003B8F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		160A16CC1E8CB60E003B8F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		160A16D11E8CB60E003B8F49 /* JHHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		160A16D51E8CB60E003B8F49 /* JHHelpersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHHelpersTests.m; sourceTree = "<group>"; };
 		160A16D71E8CB60E003B8F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		160A16E11E8CB81B003B8F49 /* JHDataSanitizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHDataSanitizer.h; path = Source/JHDataSanitizer.h; sourceTree = "<group>"; };
-		160A16E21E8CB81B003B8F49 /* JHDataSanitizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHDataSanitizer.m; path = Source/JHDataSanitizer.m; sourceTree = "<group>"; };
-		160A16E31E8CB81B003B8F49 /* JHErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHErrorHelper.h; path = Source/JHErrorHelper.h; sourceTree = "<group>"; };
-		160A16E41E8CB81B003B8F49 /* JHErrorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHErrorHelper.m; path = Source/JHErrorHelper.m; sourceTree = "<group>"; };
-		160A16E51E8CB81B003B8F49 /* JHJoinedPromiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHJoinedPromiseHelper.h; path = Source/JHJoinedPromiseHelper.h; sourceTree = "<group>"; };
-		160A16E61E8CB81B003B8F49 /* JHJoinedPromiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHJoinedPromiseHelper.m; path = Source/JHJoinedPromiseHelper.m; sourceTree = "<group>"; };
-		160A16E71E8CB81B003B8F49 /* JHMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHMapper.h; path = Source/JHMapper.h; sourceTree = "<group>"; };
-		160A16E81E8CB81B003B8F49 /* JHMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHMapper.m; path = Source/JHMapper.m; sourceTree = "<group>"; };
+		160A16E11E8CB81B003B8F49 /* JHDataSanitizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHDataSanitizer.h; path = JHDataSanitizer.h; sourceTree = "<group>"; };
+		160A16E21E8CB81B003B8F49 /* JHDataSanitizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHDataSanitizer.m; path = JHDataSanitizer.m; sourceTree = "<group>"; };
+		160A16E31E8CB81B003B8F49 /* JHErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHErrorHelper.h; path = JHErrorHelper.h; sourceTree = "<group>"; };
+		160A16E41E8CB81B003B8F49 /* JHErrorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHErrorHelper.m; path = JHErrorHelper.m; sourceTree = "<group>"; };
+		160A16E51E8CB81B003B8F49 /* JHJoinedPromiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHJoinedPromiseHelper.h; path = JHJoinedPromiseHelper.h; sourceTree = "<group>"; };
+		160A16E61E8CB81B003B8F49 /* JHJoinedPromiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHJoinedPromiseHelper.m; path = JHJoinedPromiseHelper.m; sourceTree = "<group>"; };
+		160A16E71E8CB81B003B8F49 /* JHMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHMapper.h; path = JHMapper.h; sourceTree = "<group>"; };
+		160A16E81E8CB81B003B8F49 /* JHMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHMapper.m; path = JHMapper.m; sourceTree = "<group>"; };
+		1677A4451EA030D20085CA00 /* JHDataSanitizerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JHDataSanitizerSpec.mm; sourceTree = "<group>"; };
 		3B41C89ECBE4F93371B0E9A6 /* Pods-JHHelpersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHHelpersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHHelpersTests/Pods-JHHelpersTests.release.xcconfig"; sourceTree = "<group>"; };
 		4792ADBABBDD6BC2790C8EE1 /* libPods-JHHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHHelpers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6EBAA85E5725D11422006D /* Pods-JHHelpers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHHelpers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHHelpers/Pods-JHHelpers.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,11 +85,11 @@
 		160A16AF1E8CB60E003B8F49 = {
 			isa = PBXGroup;
 			children = (
+				609D3C8BCC0DC9F0B0BDCB79 /* Frameworks */,
 				160A16BA1E8CB60E003B8F49 /* JHHelpers */,
 				160A16D41E8CB60E003B8F49 /* JHHelpersTests */,
-				160A16B91E8CB60E003B8F49 /* Products */,
 				3C1E2ABA83E1A99C434CC97B /* Pods */,
-				609D3C8BCC0DC9F0B0BDCB79 /* Frameworks */,
+				160A16B91E8CB60E003B8F49 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,15 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				160A16E01E8CB80C003B8F49 /* Source */,
+				160A16BB1E8CB60E003B8F49 /* Supporting Files */,
 				160A16BE1E8CB60E003B8F49 /* AppDelegate.h */,
 				160A16BF1E8CB60E003B8F49 /* AppDelegate.m */,
+				160A16C71E8CB60E003B8F49 /* Assets.xcassets */,
+				160A16CC1E8CB60E003B8F49 /* Info.plist */,
+				160A16C91E8CB60E003B8F49 /* LaunchScreen.storyboard */,
+				160A16C41E8CB60E003B8F49 /* Main.storyboard */,
 				160A16C11E8CB60E003B8F49 /* ViewController.h */,
 				160A16C21E8CB60E003B8F49 /* ViewController.m */,
-				160A16C41E8CB60E003B8F49 /* Main.storyboard */,
-				160A16C71E8CB60E003B8F49 /* Assets.xcassets */,
-				160A16C91E8CB60E003B8F49 /* LaunchScreen.storyboard */,
-				160A16CC1E8CB60E003B8F49 /* Info.plist */,
-				160A16BB1E8CB60E003B8F49 /* Supporting Files */,
 			);
 			path = JHHelpers;
 			sourceTree = "<group>";
@@ -125,13 +125,14 @@
 				160A16BC1E8CB60E003B8F49 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		160A16D41E8CB60E003B8F49 /* JHHelpersTests */ = {
 			isa = PBXGroup;
 			children = (
-				160A16D51E8CB60E003B8F49 /* JHHelpersTests.m */,
 				160A16D71E8CB60E003B8F49 /* Info.plist */,
+				1677A4451EA030D20085CA00 /* JHDataSanitizerSpec.mm */,
 			);
 			path = JHHelpersTests;
 			sourceTree = "<group>";
@@ -149,6 +150,7 @@
 				160A16E81E8CB81B003B8F49 /* JHMapper.m */,
 			);
 			name = Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		3C1E2ABA83E1A99C434CC97B /* Pods */ = {
@@ -388,7 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				160A16D61E8CB60E003B8F49 /* JHHelpersTests.m in Sources */,
+				1677A4461EA030D20085CA00 /* JHDataSanitizerSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +411,7 @@
 				160A16C51E8CB60E003B8F49 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		160A16C91E8CB60E003B8F49 /* LaunchScreen.storyboard */ = {
@@ -417,6 +420,7 @@
 				160A16CA1E8CB60E003B8F49 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

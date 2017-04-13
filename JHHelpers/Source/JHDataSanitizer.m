@@ -52,6 +52,28 @@
   return [JHDataSanitizer dictionary:(NSDictionary *)item existsAndContainsOnlyKeysOfType:keyClass andValuesOfType:valueClass];
 }
 
++(BOOL)arrayOfStrings:(NSArray<NSString *> *)stringArray1 matchesArrayOfStrings:(NSArray<NSString *> *)stringArray2
+{
+  if (stringArray1.count != stringArray2.count)
+  {
+    return NO;
+  }
+  BOOL allStringsMatch = YES;
+  
+  for (NSInteger i = 0; i < stringArray1.count; i++)
+  {
+    NSString *string1 = stringArray1[i];
+    NSString *string2 = stringArray2[i];
+    if (![string1 isEqualToString:string2])
+    {
+      allStringsMatch = NO;
+      break;
+    }
+  }
+  
+  return allStringsMatch;
+}
+
 + (NSArray *)allItemsFromArray:(NSArray *)array ofType:(Class)targetClass
 {
   NSMutableArray *targetArray = [NSMutableArray array];

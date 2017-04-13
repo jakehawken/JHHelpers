@@ -13,6 +13,7 @@
 + (BOOL)item:(id)item isAnArrayAndOnlyContainsItemsofType:(Class)intendedClass;
 + (BOOL)dictionary:(NSDictionary *)dictionary existsAndContainsOnlyKeysOfType:(Class)keyClass andValuesOfType:(Class)valueClass;
 + (BOOL)item:(id)item isADictionaryAndContainsOnlyKeysOfType:(Class)keyClass andValuesOfType:(Class)valueClass;
++ (BOOL)arrayOfStrings:(NSArray<NSString *> *)stringArray1 matchesArrayOfStrings:(NSArray<NSString *> *)stringArray2;
 
 #pragma mark - filtering
 
