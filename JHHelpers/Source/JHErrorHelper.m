@@ -19,7 +19,7 @@
     return inputError;
   }
   
-  NSString *newDomain = [NSString stringWithFormat:@"%@ --- HONEYDO IDENTIFIER: %@", inputError.domain, identifier];
+  NSString *newDomain = [NSString stringWithFormat:@"%@ --- IDENTIFIER: %@", inputError.domain, identifier];
   
   return [NSError errorWithDomain:newDomain code:inputError.code userInfo:inputError.userInfo];
 }
